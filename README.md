@@ -28,6 +28,7 @@ rc4_decrypt.exe
 ---
 
 ## Bộ test vector
+Ký hiệuÝ nghĩaVai tròLKey LengthĐộ dài bit của số nguyên tố lớn $P$ (ví dụ: 1024, 2048, 3072).NSub-group OrderĐộ dài bit của số nguyên tố nhỏ $Q$.PModulusSố nguyên tố lớn dùng làm nền cho các phép toán modulo.QDivisorSố nguyên tố nhỏ, là một ước số của $(P-1)$.GGeneratorPhần tử sinh của nhóm con bậc $Q$ modulo $P$.SeedRandom SeedGiá trị ngẫu nhiên dùng để khởi tạo quá trình tìm $P, Q$.CounterIteration CountSố lần thử nghiệm để tìm được số nguyên tố $P$ đạt chuẩn.
 
 | Ciphertext (hex)                                                                                             | Key    | Plaintext                                   |
 |--------------------------------------------------------------------------------------------------------------|--------|---------------------------------------------|
